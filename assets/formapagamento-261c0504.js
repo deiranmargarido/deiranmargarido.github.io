@@ -1,1 +1,0 @@
-import{av as o,aw as e}from"./index-f8fc41f9.js";const n=o("formapagamento",{state:()=>({formapagamento:[]}),getters:{getFormaPagamento(a){return a.formapagamento}},actions:{async list(a){await e.get("/formapagamento",{params:a}).then(t=>{this.formapagamento=t.data.formaspagamento})}}});export{n as u};
