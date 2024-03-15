@@ -1,3 +1,5 @@
+
+
 .desktop-dark-mode {
     background-color: #191919;
     display: flex;
@@ -8,7 +10,7 @@
   
   .desktop-dark-mode .div {
     background-color: var(--dark-mode);
-    width: 1600px;
+    width: 1px;
     height: 3630px;
     position: relative;
   }
@@ -23,8 +25,8 @@
   
   .desktop-dark-mode .logo {
     position: absolute;
-    width: 97px;
-    height: 59px;
+    width: 60px;
+   
     top: 0;
     left: 0;
   }

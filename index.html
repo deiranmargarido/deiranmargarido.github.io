@@ -1,182 +1,64 @@
 <!DOCTYPE html>
-<html style="
-width: 1600px;"
->
+<html class="h-full bg-gray-100">
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="styleguide.css" /> 
     <link rel="stylesheet" href="style.css" />
+    <link href="./output.css" rel="stylesheet">
   </head>
-  <body>
-    <div class="desktop-dark-mode">
-      <div class="div">
-        <div class="group">
-          <img class="logo" src="https://c.animaapp.com/kwmgmS0L/img/logo-1-1.svg" />
-          <div class="navbar">
-            <div class="text-wrapper">Tech Stack</div>
-            <div class="text-wrapper-2">Contato</div>
-            <div class="text-wrapper-3">Projetos</div>
-            <div class="text-wrapper-4">Home</div>
-            <div class="text-wrapper-5">About</div>
+  
+  
+  <body class="h-full bg-contain bg-center text-white">
+    <nav class="mx-auto">
+      <div class="mx-auto max-w-7xl px-8  sm:px-10 lg:px-10">
+        <div class="relative flex h-12 px-12  items-center justify-between">
+          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            <!-- Mobile menu button-->
+            <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+              <span class="absolute -inset-0.5"></span>
+              <span class="sr-only">Open main menu</span>
+              <!--
+                Icon when menu is closed.
+    
+                Menu open: "hidden", Menu closed: "block"
+              -->
+              <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
           </div>
-          <div class="group-2">
+          <div class="flex flex-1 items-center justify-between  ">
+            <div class="flex flex-shrink-0 ">
+              <img class="w-12" src="https://c.animaapp.com/kwmgmS0L/img/logo-1-1.svg" />
+            </div>
+            <div class="hidden sm:flex space-x-8">
+                <a href="#" class="text-gray-500 text-xl font-medium font-['DM Sans'] leading-relaxedhover:bg-gray-700  text-lg left-16 hover:text-white rounded-md px-3 py-2 text-lg font-semibold" aria-current="page">Home</a>
+                <a href="#" class="text-gray-500 text-xl font-medium font-['DM Sans'] leading-relaxed hover:bg-gray-700  text-lg left-16 hover:text-white rounded-md px-3 py-2 text-lg font-semibold">Sobre</a>
+                <a href="#" class="text-gray-500 text-xl font-medium font-['DM Sans'] leading-relaxed hover:bg-gray-700 left-16 hover:text-white rounded-md px-3 py-2 text-lg font-sans">Projetos</a>
+                <a href="#" class="text-gray-500 text-xl font-medium font-['DM Sans'] leading-relaxed hover:bg-gray-700 left-16 hover:text-white rounded-md px-3 py-2 text-lg font-sans">Contato</a>
+              
+            </div>
+          </div>
+          <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+            <img class="w-10 px-2" text-stone-500 src="https://c.animaapp.com/kwmgmS0L/img/vector-1.svg" />
             <img
-              class="entypo-social"
+              class="w-10 px-2"
               src="https://c.animaapp.com/kwmgmS0L/img/entypo-social-linkedin-with-circle.svg"
             />
             <img
-              class="ant-design-twitter"
+              class="w-10 px-2"
               src="https://c.animaapp.com/kwmgmS0L/img/ant-design-twitter-circle-filled.svg"
             />
-            <img class="vector" src="https://c.animaapp.com/kwmgmS0L/img/vector-1.svg" />
+           
+            </div>
           </div>
         </div>
-        <div class="text-wrapper-6">My Tech Stack</div>
-        <img class="akar-icons-github" src="https://c.animaapp.com/kwmgmS0L/img/akar-icons-github-fill-6.svg" />
-        <img class="logos-git-icon" src="https://c.animaapp.com/kwmgmS0L/img/logos-git-icon.svg" />
-        <img class="logos-react" src="https://c.animaapp.com/kwmgmS0L/img/logos-react.svg" />
-        <img class="logos-sass" src="https://c.animaapp.com/kwmgmS0L/img/logos-sass.svg" />
-        <img class="logos-bootstrap" src="https://c.animaapp.com/kwmgmS0L/img/logos-bootstrap.svg" />
-        <img class="vscode-icons-file" src="https://c.animaapp.com/kwmgmS0L/img/vscode-icons-file-type-tailwind.svg" />
-        <img class="img" src="https://c.animaapp.com/kwmgmS0L/img/vscode-icons-file-type-vscode.svg" />
-        <img
-          class="vscode-icons-file-2"
-          src="https://c.animaapp.com/kwmgmS0L/img/vscode-icons-file-type-js-official.svg"
-        />
-        <img class="vscode-icons-file-3" src="https://c.animaapp.com/kwmgmS0L/img/vscode-icons-file-type-css.svg" />
-        <img class="vscode-icons-file-4" src="https://c.animaapp.com/kwmgmS0L/img/vscode-icons-file-type-html.svg" />
-        <img class="cib-greensock" src="https://c.animaapp.com/kwmgmS0L/img/cib-greensock.svg" />
-        <div class="overlap">
-          <div class="rectangle"></div>
-          <div class="text-wrapper-7">Live Preview</div>
-          <div class="text-wrapper-8">View Code</div>
-          <img class="rectangle-2" src="https://c.animaapp.com/kwmgmS0L/img/rectangle-8.svg" />
-          <div class="text-wrapper-9">Project Tile goes here</div>
-          <p class="p">
-            This is sample project description random things are here in description This is sample project lorem ipsum
-            generator for dummy content
-          </p>
-          <p class="tech-stack-HTML">
-            <span class="span">Tech stack :</span> <span class="text-wrapper-10"> HTML , JavaScript, SASS, React</span>
-          </p>
-          <img class="akar-icons-link" src="https://c.animaapp.com/kwmgmS0L/img/akar-icons-link-chain-5.svg" />
-          <img class="akar-icons-github-2" src="https://c.animaapp.com/kwmgmS0L/img/akar-icons-github-fill-5.svg" />
-        </div>
-        <div class="overlap-group">
-          <div class="rectangle"></div>
-          <div class="text-wrapper-7">Live Preview</div>
-          <div class="text-wrapper-8">View Code</div>
-          <img class="rectangle-2" src="https://c.animaapp.com/kwmgmS0L/img/rectangle-22.svg" />
-          <div class="text-wrapper-9">Project Tile goes here</div>
-          <p class="p">
-            This is sample project description random things are here in description This is sample project lorem ipsum
-            generator for dummy content
-          </p>
-          <p class="tech-stack-HTML">
-            <span class="span">Tech stack :</span> <span class="text-wrapper-10"> HTML , JavaScript, SASS, React</span>
-          </p>
-          <img class="akar-icons-link" src="https://c.animaapp.com/kwmgmS0L/img/akar-icons-link-chain-5.svg" />
-          <img class="akar-icons-github-2" src="https://c.animaapp.com/kwmgmS0L/img/akar-icons-github-fill-4.svg" />
-        </div>
-        <div class="overlap-2">
-          <div class="rectangle"></div>
-          <div class="text-wrapper-7">Live Preview</div>
-          <div class="text-wrapper-8">View Code</div>
-          <img class="rectangle-2" src="https://c.animaapp.com/kwmgmS0L/img/rectangle-16.svg" />
-          <div class="text-wrapper-9">Project Tile goes here</div>
-          <p class="p">
-            This is sample project description random things are here in description This is sample project lorem ipsum
-            generator for dummy content
-          </p>
-          <p class="tech-stack-HTML">
-            <span class="span">Tech stack :</span> <span class="text-wrapper-10"> HTML , JavaScript, SASS, React</span>
-          </p>
-          <img class="akar-icons-link" src="https://c.animaapp.com/kwmgmS0L/img/akar-icons-link-chain-5.svg" />
-          <img class="akar-icons-github-2" src="https://c.animaapp.com/kwmgmS0L/img/akar-icons-github-fill-3.svg" />
-        </div>
-        <div class="overlap-3">
-          <div class="rectangle"></div>
-          <div class="text-wrapper-7">Live Preview</div>
-          <div class="text-wrapper-8">View Code</div>
-          <img class="rectangle-2" src="https://c.animaapp.com/kwmgmS0L/img/rectangle-23.svg" />
-          <div class="text-wrapper-9">Project Tile goes here</div>
-          <p class="p">
-            This is sample project description random things are here in description This is sample project lorem ipsum
-            generator for dummy content
-          </p>
-          <p class="tech-stack-HTML">
-            <span class="span">Tech stack :</span> <span class="text-wrapper-10"> HTML , JavaScript, SASS, React</span>
-          </p>
-          <img class="akar-icons-link" src="https://c.animaapp.com/kwmgmS0L/img/akar-icons-link-chain-5.svg" />
-          <img class="akar-icons-github-2" src="https://c.animaapp.com/kwmgmS0L/img/akar-icons-github-fill-2.svg" />
-        </div>
-        <div class="overlap-group-2">
-          <div class="rectangle"></div>
-          <div class="text-wrapper-7">Live Preview</div>
-          <div class="text-wrapper-8">View Code</div>
-          <img class="rectangle-2" src="https://c.animaapp.com/kwmgmS0L/img/rectangle-18.png" />
-          <div class="text-wrapper-9">Project Tile goes here</div>
-          <p class="p">
-            This is sample project description random things are here in description This is sample project lorem ipsum
-            generator for dummy content
-          </p>
-          <p class="tech-stack-HTML">
-            <span class="span">Tech stack :</span> <span class="text-wrapper-10"> HTML , JavaScript, SASS, React</span>
-          </p>
-          <img class="akar-icons-link" src="https://c.animaapp.com/kwmgmS0L/img/akar-icons-link-chain-5.svg" />
-          <img class="akar-icons-github-2" src="https://c.animaapp.com/kwmgmS0L/img/akar-icons-github-fill-1.svg" />
-        </div>
-        <div class="overlap-4">
-          <div class="rectangle"></div>
-          <div class="text-wrapper-7">Live Preview</div>
-          <div class="text-wrapper-8">View Code</div>
-          <img class="rectangle-2" src="https://c.animaapp.com/kwmgmS0L/img/rectangle-24.svg" />
-          <div class="text-wrapper-9">Project Tile goes here</div>
-          <p class="p">
-            This is sample project description random things are here in description This is sample project lorem ipsum
-            generator for dummy content
-          </p>
-          <p class="tech-stack-HTML">
-            <span class="span">Tech stack :</span> <span class="text-wrapper-10"> HTML , JavaScript, SASS, React</span>
-          </p>
-          <img class="akar-icons-link" src="https://c.animaapp.com/kwmgmS0L/img/akar-icons-link-chain-5.svg" />
-          <img class="akar-icons-github-2" src="https://c.animaapp.com/kwmgmS0L/img/akar-icons-github-fill.svg" />
-        </div>
-        <div class="component">
-          <div class="text">
-            <img class="you-have-the-design" src="https://c.animaapp.com/kwmgmS0L/img/you-have-the-design--1@2x.png" />
-          </div>
-          <img class="element" src="https://c.animaapp.com/kwmgmS0L/img/50353683-1.png" />
-        </div>
-        <p class="technologies-i-ve">Technologies I’ve been working with recently</p>
-        <p class="text-wrapper-11">Things I’ve built so far</p>
-        <div class="text-wrapper-12">Projects</div>
-        <img class="be-sure-to-take-a-lo" src="https://c.animaapp.com/kwmgmS0L/img/be-sure-to-take-a-lo@2x.png" />
-        <div class="menu">
-          <div class="about">Projects</div>
-          <div class="about-2">Contact</div>
-          <div class="pricing">About</div>
-          <div class="how-it-works">Technologies</div>
-          <div class="portfolio">Home</div>
-        </div>
-        <img class="logo-2" src="https://c.animaapp.com/kwmgmS0L/img/logo-1.svg" />
-        <img class="divider" src="https://c.animaapp.com/kwmgmS0L/img/divider.svg" />
-        <img class="group-3" src="https://c.animaapp.com/kwmgmS0L/img/group-1@2x.png" />
-        <div class="group-wrapper">
-          <div class="group-4">
-            <div class="element-2">+91 12345 09876</div>
-            <div class="fa-phone"></div>
-          </div>
-        </div>
-        <div class="div-wrapper">
-          <div class="group-5">
-            <div class="info-designmodo-com">info@example.com</div>
-            <div class="fa-envelope"></div>
-          </div>
-        </div>
-        <img class="vector-2" src="https://c.animaapp.com/kwmgmS0L/img/vector.svg" />
       </div>
-    </div>
+    </nav>
+    
   </body>
 </html>
